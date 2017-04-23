@@ -1,0 +1,38 @@
+//
+//  PrefixHeader.pch
+//  FreJun
+//
+//  Created by GOTESO on 26/08/16.
+//  Copyright © 2016 GOTESO. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import "dataclass.h"
+#define directory @"http://104.131.31.146/api/login.php"
+#define directoryAccount @"http://104.131.31.146/api/account.php"
+#define directoryEvent @"http://104.131.31.146/api/event_new.php"//
+#define directoryEditEvent @"http://104.131.31.146/api/edit_event.php"
+#define directoryNotifications @"http://104.131.31.146/api/nlist.php"//
+#define directoryEventList @"http://104.131.31.146/api/events.php"//
+#define directoryDeleteEvent @"http://104.131.31.146/api/deletevent.php"
+#define directoryFetchPref @"http://104.131.31.146/api/fetch_preference.php"
+#define directorypref @"http://104.131.31.146/api/preference.php"
+#define directorydelay @"http://104.131.31.146/api/notify_invitees.php"//
+#define directorylocation @"http://104.131.31.146/api/update_location.php"//
+#define directoryaccept @"http://104.131.31.146/api/accept.php"
+#define directorythirtyHours @"http://104.131.31.146/api/write_thirty_hours_schedular.php"
+#define directorythirtyHours_invitees @"http://104.131.31.146/api/write_thirty_hours_schedular_invitees.php"
+#define directorythreeHours @"http://104.131.31.146/api/three_hours_schedular.php"
+#define directoryDeleteAccount @"http://104.131.31.146/api/delete_account.php"
+#define directoryPostpone @"http://104.131.31.146/api/snooze_notification.php"
+#import "dataclass.h"
+#define color1 [UIColor colorWithRed:243.0/255.0 green:63.0/255.0 blue:63.0/255.0 alpha:1]
+#define color2 [UIColor colorWithRed:75.0/255.0 green:224.0/255.0 blue:60.0/255.0 alpha:1]
+#define color3 [UIColor colorWithRed:249.0/255.0 green:228.0/255.0 blue:50.0/255.0 alpha:1]
+#define color4 [UIColor colorWithRed:181.0/255.0 green:53.0/255.0 blue:234.0/255.0 alpha:1]
+#define color5 [UIColor colorWithRed:63.0/255.0 green:190.0/255.0 blue:243.0/255.0 alpha:1]
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif

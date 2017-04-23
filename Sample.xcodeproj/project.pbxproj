@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321E40241EA72506000CB673 /* add_post.png in Resources */ = {isa = PBXBuildFile; fileRef = 321E40231EA72506000CB673 /* add_post.png */; };
+		321F2F9D1EAA725900592A0B /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 321F2F9C1EAA725900592A0B /* back.png */; };
 		6B6C27581EA5F582008B2066 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C27571EA5F582008B2066 /* main.m */; };
 		6B6C275B1EA5F582008B2066 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C275A1EA5F582008B2066 /* AppDelegate.m */; };
 		6B6C275E1EA5F582008B2066 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C275D1EA5F582008B2066 /* ViewController.m */; };
@@ -16,6 +18,28 @@
 		6B6C27691EA5F582008B2066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C27671EA5F582008B2066 /* LaunchScreen.storyboard */; };
 		6B6C27741EA5F583008B2066 /* SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C27731EA5F583008B2066 /* SampleTests.m */; };
 		6B6C277F1EA5F583008B2066 /* SampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C277E1EA5F583008B2066 /* SampleUITests.m */; };
+		6B6C278F1EA5F5AF008B2066 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C278D1EA5F5AF008B2066 /* mainViewController.m */; };
+		6B6C27901EA5F5AF008B2066 /* mainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C278E1EA5F5AF008B2066 /* mainViewController.xib */; };
+		6B6C279B1EA5F6E4008B2066 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C27931EA5F6E4008B2066 /* DateUtil.m */; };
+		6B6C279C1EA5F6E4008B2066 /* DMLazyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C27951EA5F6E4008B2066 /* DMLazyScrollView.m */; };
+		6B6C279D1EA5F6E4008B2066 /* SACalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C27971EA5F6E4008B2066 /* SACalendar.m */; };
+		6B6C279E1EA5F6E4008B2066 /* SACalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C27991EA5F6E4008B2066 /* SACalendarCell.m */; };
+		6B6C27A21EA606F0008B2066 /* dataclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C27A11EA606F0008B2066 /* dataclass.m */; };
+		6B6C27A61EA611D9008B2066 /* mainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C27A41EA611D9008B2066 /* mainTableViewCell.m */; };
+		6B6C27A71EA611D9008B2066 /* mainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C27A51EA611D9008B2066 /* mainTableViewCell.xib */; };
+		6B6C27B51EA612AB008B2066 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C27AA1EA612AB008B2066 /* NSMutableArray+SWUtilityButtons.m */; };
+		6B6C27B61EA612AB008B2066 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C27AC1EA612AB008B2066 /* SWCellScrollView.m */; };
+		6B6C27B71EA612AB008B2066 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C27AE1EA612AB008B2066 /* SWLongPressGestureRecognizer.m */; };
+		6B6C27B81EA612AB008B2066 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C27B01EA612AB008B2066 /* SWTableViewCell.m */; };
+		6B6C27B91EA612AB008B2066 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C27B21EA612AB008B2066 /* SWUtilityButtonTapGestureRecognizer.m */; };
+		6B6C27BA1EA612AB008B2066 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C27B41EA612AB008B2066 /* SWUtilityButtonView.m */; };
+		6B6C27BD1EA61418008B2066 /* SearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C27BC1EA61418008B2066 /* SearchResultsViewController.m */; };
+		6B79B56A1EA76BBF006CD409 /* Event_Details.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B79B5681EA76BBF006CD409 /* Event_Details.m */; };
+		6B79B56B1EA76BBF006CD409 /* Event_Details.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B79B5691EA76BBF006CD409 /* Event_Details.xib */; };
+		6B79B56F1EA76D63006CD409 /* Event_Invites.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B79B56D1EA76D63006CD409 /* Event_Invites.m */; };
+		6B79B5701EA76D63006CD409 /* Event_Invites.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B79B56E1EA76D63006CD409 /* Event_Invites.xib */; };
+		6B79B5751EA78C1D006CD409 /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B79B5731EA78C1D006CD409 /* Notifications.m */; };
+		6B79B5761EA78C1D006CD409 /* Notifications.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B79B5741EA78C1D006CD409 /* Notifications.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		321E40231EA72506000CB673 /* add_post.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_post.png; sourceTree = "<group>"; };
+		321F2F9C1EAA725900592A0B /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		6B6C27531EA5F582008B2066 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B6C27571EA5F582008B2066 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B6C27591EA5F582008B2066 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +79,47 @@
 		6B6C277A1EA5F583008B2066 /* SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B6C277E1EA5F583008B2066 /* SampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleUITests.m; sourceTree = "<group>"; };
 		6B6C27801EA5F583008B2066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B6C278C1EA5F5AF008B2066 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		6B6C278D1EA5F5AF008B2066 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		6B6C278E1EA5F5AF008B2066 /* mainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mainViewController.xib; sourceTree = "<group>"; };
+		6B6C27921EA5F6E4008B2066 /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
+		6B6C27931EA5F6E4008B2066 /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
+		6B6C27941EA5F6E4008B2066 /* DMLazyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLazyScrollView.h; sourceTree = "<group>"; };
+		6B6C27951EA5F6E4008B2066 /* DMLazyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLazyScrollView.m; sourceTree = "<group>"; };
+		6B6C27961EA5F6E4008B2066 /* SACalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACalendar.h; sourceTree = "<group>"; };
+		6B6C27971EA5F6E4008B2066 /* SACalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACalendar.m; sourceTree = "<group>"; };
+		6B6C27981EA5F6E4008B2066 /* SACalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACalendarCell.h; sourceTree = "<group>"; };
+		6B6C27991EA5F6E4008B2066 /* SACalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACalendarCell.m; sourceTree = "<group>"; };
+		6B6C279A1EA5F6E4008B2066 /* SACalendarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACalendarConstants.h; sourceTree = "<group>"; };
+		6B6C279F1EA60691008B2066 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6B6C27A01EA606F0008B2066 /* dataclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataclass.h; sourceTree = "<group>"; };
+		6B6C27A11EA606F0008B2066 /* dataclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataclass.m; sourceTree = "<group>"; };
+		6B6C27A31EA611D9008B2066 /* mainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainTableViewCell.h; sourceTree = "<group>"; };
+		6B6C27A41EA611D9008B2066 /* mainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainTableViewCell.m; sourceTree = "<group>"; };
+		6B6C27A51EA611D9008B2066 /* mainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mainTableViewCell.xib; sourceTree = "<group>"; };
+		6B6C27A91EA612AB008B2066 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		6B6C27AA1EA612AB008B2066 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		6B6C27AB1EA612AB008B2066 /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		6B6C27AC1EA612AB008B2066 /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		6B6C27AD1EA612AB008B2066 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		6B6C27AE1EA612AB008B2066 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		6B6C27AF1EA612AB008B2066 /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		6B6C27B01EA612AB008B2066 /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		6B6C27B11EA612AB008B2066 /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		6B6C27B21EA612AB008B2066 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		6B6C27B31EA612AB008B2066 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		6B6C27B41EA612AB008B2066 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
+		6B6C27BB1EA61418008B2066 /* SearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsViewController.h; sourceTree = "<group>"; };
+		6B6C27BC1EA61418008B2066 /* SearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsViewController.m; sourceTree = "<group>"; };
+		6B79B5671EA76BBF006CD409 /* Event_Details.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event_Details.h; sourceTree = "<group>"; };
+		6B79B5681EA76BBF006CD409 /* Event_Details.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event_Details.m; sourceTree = "<group>"; };
+		6B79B5691EA76BBF006CD409 /* Event_Details.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Event_Details.xib; sourceTree = "<group>"; };
+		6B79B56C1EA76D63006CD409 /* Event_Invites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event_Invites.h; sourceTree = "<group>"; };
+		6B79B56D1EA76D63006CD409 /* Event_Invites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event_Invites.m; sourceTree = "<group>"; };
+		6B79B56E1EA76D63006CD409 /* Event_Invites.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Event_Invites.xib; sourceTree = "<group>"; };
+		6B79B5721EA78C1D006CD409 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
+		6B79B5731EA78C1D006CD409 /* Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notifications.m; sourceTree = "<group>"; };
+		6B79B5741EA78C1D006CD409 /* Notifications.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Notifications.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +170,21 @@
 		6B6C27551EA5F582008B2066 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				6B73CAC01EA8ECF200AE9773 /* images */,
+				321E40231EA72506000CB673 /* add_post.png */,
 				6B6C27591EA5F582008B2066 /* AppDelegate.h */,
 				6B6C275A1EA5F582008B2066 /* AppDelegate.m */,
 				6B6C275C1EA5F582008B2066 /* ViewController.h */,
 				6B6C275D1EA5F582008B2066 /* ViewController.m */,
 				6B6C275F1EA5F582008B2066 /* Main.storyboard */,
+				6B79B5621EA75EB5006CD409 /* Home Screen */,
+				6B6C279F1EA60691008B2066 /* PrefixHeader.pch */,
+				6B6C27A01EA606F0008B2066 /* dataclass.h */,
+				6B6C27A11EA606F0008B2066 /* dataclass.m */,
+				6B79B5711EA78C00006CD409 /* Notifications */,
+				6B79B55B1EA75E81006CD409 /* Event Details */,
+				6B6C27A81EA61259008B2066 /* SWTableViewCell */,
+				6B6C27911EA5F6C7008B2066 /* SACalender */,
 				6B6C27651EA5F582008B2066 /* Assets.xcassets */,
 				6B6C27671EA5F582008B2066 /* LaunchScreen.storyboard */,
 				6B6C276A1EA5F582008B2066 /* Info.plist */,
@@ -141,6 +218,87 @@
 				6B6C27801EA5F583008B2066 /* Info.plist */,
 			);
 			path = SampleUITests;
+			sourceTree = "<group>";
+		};
+		6B6C27911EA5F6C7008B2066 /* SACalender */ = {
+			isa = PBXGroup;
+			children = (
+				6B6C27921EA5F6E4008B2066 /* DateUtil.h */,
+				6B6C27931EA5F6E4008B2066 /* DateUtil.m */,
+				6B6C27941EA5F6E4008B2066 /* DMLazyScrollView.h */,
+				6B6C27951EA5F6E4008B2066 /* DMLazyScrollView.m */,
+				6B6C27961EA5F6E4008B2066 /* SACalendar.h */,
+				6B6C27971EA5F6E4008B2066 /* SACalendar.m */,
+				6B6C27981EA5F6E4008B2066 /* SACalendarCell.h */,
+				6B6C27991EA5F6E4008B2066 /* SACalendarCell.m */,
+				6B6C279A1EA5F6E4008B2066 /* SACalendarConstants.h */,
+			);
+			name = SACalender;
+			sourceTree = "<group>";
+		};
+		6B6C27A81EA61259008B2066 /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6B6C27A91EA612AB008B2066 /* NSMutableArray+SWUtilityButtons.h */,
+				6B6C27AA1EA612AB008B2066 /* NSMutableArray+SWUtilityButtons.m */,
+				6B6C27AB1EA612AB008B2066 /* SWCellScrollView.h */,
+				6B6C27AC1EA612AB008B2066 /* SWCellScrollView.m */,
+				6B6C27AD1EA612AB008B2066 /* SWLongPressGestureRecognizer.h */,
+				6B6C27AE1EA612AB008B2066 /* SWLongPressGestureRecognizer.m */,
+				6B6C27AF1EA612AB008B2066 /* SWTableViewCell.h */,
+				6B6C27B01EA612AB008B2066 /* SWTableViewCell.m */,
+				6B6C27B11EA612AB008B2066 /* SWUtilityButtonTapGestureRecognizer.h */,
+				6B6C27B21EA612AB008B2066 /* SWUtilityButtonTapGestureRecognizer.m */,
+				6B6C27B31EA612AB008B2066 /* SWUtilityButtonView.h */,
+				6B6C27B41EA612AB008B2066 /* SWUtilityButtonView.m */,
+			);
+			name = SWTableViewCell;
+			sourceTree = "<group>";
+		};
+		6B73CAC01EA8ECF200AE9773 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				321F2F9C1EAA725900592A0B /* back.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		6B79B55B1EA75E81006CD409 /* Event Details */ = {
+			isa = PBXGroup;
+			children = (
+				6B79B5671EA76BBF006CD409 /* Event_Details.h */,
+				6B79B5681EA76BBF006CD409 /* Event_Details.m */,
+				6B79B5691EA76BBF006CD409 /* Event_Details.xib */,
+				6B79B56C1EA76D63006CD409 /* Event_Invites.h */,
+				6B79B56D1EA76D63006CD409 /* Event_Invites.m */,
+				6B79B56E1EA76D63006CD409 /* Event_Invites.xib */,
+			);
+			name = "Event Details";
+			sourceTree = "<group>";
+		};
+		6B79B5621EA75EB5006CD409 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6B6C27BB1EA61418008B2066 /* SearchResultsViewController.h */,
+				6B6C27BC1EA61418008B2066 /* SearchResultsViewController.m */,
+				6B6C278C1EA5F5AF008B2066 /* mainViewController.h */,
+				6B6C278D1EA5F5AF008B2066 /* mainViewController.m */,
+				6B6C278E1EA5F5AF008B2066 /* mainViewController.xib */,
+				6B6C27A31EA611D9008B2066 /* mainTableViewCell.h */,
+				6B6C27A41EA611D9008B2066 /* mainTableViewCell.m */,
+				6B6C27A51EA611D9008B2066 /* mainTableViewCell.xib */,
+			);
+			name = "Home Screen";
+			sourceTree = "<group>";
+		};
+		6B79B5711EA78C00006CD409 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				6B79B5721EA78C1D006CD409 /* Notifications.h */,
+				6B79B5731EA78C1D006CD409 /* Notifications.m */,
+				6B79B5741EA78C1D006CD409 /* Notifications.xib */,
+			);
+			name = Notifications;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +368,7 @@
 				TargetAttributes = {
 					6B6C27521EA5F582008B2066 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = E8FDK5MRZ5;
+						DevelopmentTeam = Y959Y84N4C;
 						ProvisioningStyle = Automatic;
 					};
 					6B6C276E1EA5F582008B2066 = {
@@ -252,9 +410,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B79B5761EA78C1D006CD409 /* Notifications.xib in Resources */,
 				6B6C27691EA5F582008B2066 /* LaunchScreen.storyboard in Resources */,
+				6B79B56B1EA76BBF006CD409 /* Event_Details.xib in Resources */,
+				6B6C27A71EA611D9008B2066 /* mainTableViewCell.xib in Resources */,
 				6B6C27661EA5F582008B2066 /* Assets.xcassets in Resources */,
+				321E40241EA72506000CB673 /* add_post.png in Resources */,
+				321F2F9D1EAA725900592A0B /* back.png in Resources */,
+				6B79B5701EA76D63006CD409 /* Event_Invites.xib in Resources */,
 				6B6C27611EA5F582008B2066 /* Main.storyboard in Resources */,
+				6B6C27901EA5F5AF008B2066 /* mainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +445,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B6C275E1EA5F582008B2066 /* ViewController.m in Sources */,
+				6B79B5751EA78C1D006CD409 /* Notifications.m in Sources */,
+				6B6C27B71EA612AB008B2066 /* SWLongPressGestureRecognizer.m in Sources */,
 				6B6C27641EA5F582008B2066 /* Sample.xcdatamodeld in Sources */,
+				6B6C27BA1EA612AB008B2066 /* SWUtilityButtonView.m in Sources */,
+				6B6C27B51EA612AB008B2066 /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				6B79B56A1EA76BBF006CD409 /* Event_Details.m in Sources */,
+				6B6C27A61EA611D9008B2066 /* mainTableViewCell.m in Sources */,
+				6B6C279E1EA5F6E4008B2066 /* SACalendarCell.m in Sources */,
+				6B79B56F1EA76D63006CD409 /* Event_Invites.m in Sources */,
+				6B6C27B91EA612AB008B2066 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				6B6C278F1EA5F5AF008B2066 /* mainViewController.m in Sources */,
+				6B6C27BD1EA61418008B2066 /* SearchResultsViewController.m in Sources */,
+				6B6C279C1EA5F6E4008B2066 /* DMLazyScrollView.m in Sources */,
+				6B6C27B61EA612AB008B2066 /* SWCellScrollView.m in Sources */,
+				6B6C279B1EA5F6E4008B2066 /* DateUtil.m in Sources */,
+				6B6C27A21EA606F0008B2066 /* dataclass.m in Sources */,
+				6B6C27B81EA612AB008B2066 /* SWTableViewCell.m in Sources */,
+				6B6C279D1EA5F6E4008B2066 /* SACalendar.m in Sources */,
 				6B6C275B1EA5F582008B2066 /* AppDelegate.m in Sources */,
 				6B6C27581EA5F582008B2066 /* main.m in Sources */,
 			);
@@ -431,7 +613,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E8FDK5MRZ5;
+				DEVELOPMENT_TEAM = Y959Y84N4C;
+				GCC_PREFIX_HEADER = Sample/PrefixHeader.pch;
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.indobytes.Sample;
@@ -443,7 +626,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E8FDK5MRZ5;
+				DEVELOPMENT_TEAM = Y959Y84N4C;
+				GCC_PREFIX_HEADER = Sample/PrefixHeader.pch;
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.indobytes.Sample;
@@ -520,6 +704,7 @@
 				6B6C27851EA5F583008B2066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B6C27861EA5F583008B2066 /* Build configuration list for PBXNativeTarget "SampleTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +713,7 @@
 				6B6C27881EA5F583008B2066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B6C27891EA5F583008B2066 /* Build configuration list for PBXNativeTarget "SampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +722,7 @@
 				6B6C278B1EA5F583008B2066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
